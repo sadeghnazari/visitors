@@ -11,11 +11,11 @@
     "require": {
         "php": ">=5.3.7",
         "laravel/framework": "~4|~5",
-        "blanfordia/support": "~0.6",
+        "pragmarx/support": "~0.6",
         "ramsey/uuid": "~3",
         "jenssegers/agent": "~2.1",
         "ua-parser/uap-php" : "~3.4",
-        "blanfordia/datatables": "1.4.10",
+        "pragmarx/datatables": "1.4.10",
         "snowplow/referer-parser": "~0.1",
         "jaybizzle/crawler-detect": "~1.0",
         "cartalyst/sentinel": "2.0.*"
