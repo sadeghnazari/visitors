@@ -1,0 +1,44 @@
+{
+    "name": "sadegh/visitors",
+    "description": "Visitors package for the laravel",
+    "keywords": ["visitors", "visitor", "logging", "user agent", "mobile detection"],
+    "authors": [
+        {
+            "name": "Sadegh Nazari",
+            "email": "info@snazari.ir"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7",
+        "laravel/framework": "~4|~5",
+        "blanfordia/support": "~0.6",
+        "ramsey/uuid": "~3",
+        "jenssegers/agent": "~2.1",
+        "ua-parser/uap-php" : "~3.4",
+        "blanfordia/datatables": "1.4.10",
+        "snowplow/referer-parser": "~0.1",
+        "jaybizzle/crawler-detect": "~1.0",
+        "cartalyst/sentinel": "2.0.*"
+    },
+    "suggest": {
+        "geoip/geoip": "~1.14",
+        "geoip2/geoip2": "~2.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.8"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Blanfordia\\Visitors\\": "src/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    },
+
+    "minimum-stability": "dev"
+}
